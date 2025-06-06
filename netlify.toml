@@ -1,0 +1,13 @@
+[[redirects]]
+  from = "/thank-you"
+  to = "/thank-you"
+  status = 200
+  force = true
+  headers = { Content-Type = "text/html" }
+
+[[plugins]]
+  package = "@netlify/plugin-form-handling"
+  [plugins.inputs]
+  email = "Darnelledwards997@gmail.com"  # Client's email address
+  subject = "New Contact Form Submission"
+
