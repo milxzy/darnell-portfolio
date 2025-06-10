@@ -1,7 +1,2 @@
-[[redirects]]
-  from = "/thank-you"
-  to = "/thank-you"
-  status = 200
-  force = true
-  headers = { Content-Type = "text/html" }
+
 
