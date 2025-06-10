@@ -70,7 +70,7 @@ export function Contact() {
                 name="contact"
                 method="POST"
                 action="/thank-you"
-                data-netlify="true"
+                //data-netlify="true"
                 className="space-y-6"
               >
                 <input type="hidden" name="form-name" value="contact" />
