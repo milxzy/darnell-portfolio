@@ -69,7 +69,7 @@ export function Contact() {
               <form
                 name="contact"
                 method="POST"
-                action="/thank-you"
+                action="https://formsubmit.co/Darnelledwards997@email.com"
                 //data-netlify="true"
                 className="space-y-6"
               >

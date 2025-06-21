@@ -70,7 +70,7 @@ export function About() {
               {/* Main Image */}
               <div className="aspect-[3/4] relative overflow-hidden rounded-3xl shadow-2xl transform rotate-3 hover:rotate-0 transition-transform duration-500">
                 <Image
-                  src="/darnell.jpg?height=800&width=600"
+                  src="/IMG_0481.jpg?height=800&width=600"
                   alt="Darnell Edwards - Photographer"
                   fill
                   className="object-cover object-top"
