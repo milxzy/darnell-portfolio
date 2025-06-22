@@ -47,7 +47,7 @@ export function FeaturedWork() {
       {/* Section Header */}
       <div className="text-center mb-20 relative">
         <div className="absolute inset-0 flex items-center justify-center">
-          <div className="w-32 h-px bg-gradient-to-r from-transparent via-green-400 to-transparent" />
+          <div className="w-32 h-px bg-gradient-to-r from-transparent  to-transparent" />
         </div>
         <Badge
           variant="outline"
@@ -137,12 +137,12 @@ export function FeaturedWork() {
       </div>
 
       {/* Bottom CTA */}
-      <div className="text-center mt-16">
+      {/* <div className="text-center mt-16">
         <div className="inline-flex items-center gap-4 bg-gradient-to-r from-green-600 to-green-700 text-white px-8 py-4 rounded-full shadow-xl hover:shadow-2xl transform hover:scale-105 transition-all duration-300 cursor-pointer">
           <span className="font-semibold">VIEW COMPLETE PORTFOLIO</span>
           <div className="w-2 h-2 bg-white rounded-full animate-pulse" />
         </div>
-      </div>
+      </div> */}
     </section>
   )
 }

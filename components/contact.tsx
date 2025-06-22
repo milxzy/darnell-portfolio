@@ -28,7 +28,7 @@ export function Contact() {
                 </div>
                 <div className="flex items-center space-x-4">
                   <Phone className="h-5 w-5 text-green-600" />
-                  <span className="text-stone-600">+1 (417) 419-5549</span>
+                  <span className="text-stone-600">+1 (417) 419 - 5549</span>
                 </div>
                 <div className="flex items-center space-x-4">
                   <MapPin className="h-5 w-5 text-green-600" />

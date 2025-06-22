@@ -44,12 +44,15 @@ export function About() {
             </div>
 
             <div className="grid grid-cols-3 gap-6 mt-12">
-              <Card className="bg-gradient-to-br from-green-600 to-green-700 text-white border-0 shadow-xl transform hover:scale-105 transition-all duration-300">
-                <CardContent className="p-6 text-center">
-                  <div className="text-3xl font-black mb-2">7</div>
-                  <div className="text-sm font-light">Years Experience</div>
-                </CardContent>
-              </Card>
+<div className="flex justify-center">
+  <Card className="bg-gradient-to-br from-green-600 to-green-700 text-white border-0 shadow-xl transform hover:scale-105 transition-all duration-300">
+    <CardContent className="p-6 text-center">
+      <div className="text-3xl font-black mb-2">7</div>
+      <div className="text-sm font-light">Years Experience</div>
+    </CardContent>
+  </Card>
+</div>
+
               <Card className="bg-gradient-to-br from-stone-700 to-stone-800 text-white border-0 shadow-xl transform hover:scale-105 transition-all duration-300">
                 <CardContent className="p-6 text-center">
                   <div className="text-3xl font-black mb-2">500+</div>
